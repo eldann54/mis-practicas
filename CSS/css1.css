@@ -10,12 +10,6 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 pre,
@@ -88,9 +82,19 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -135,15 +139,15 @@ table {
 }
 
 body {
-  background-image:url(wallpaper-5-3840x2160.jpg);
-    }
+  background-image: url(wallpaper-5-3840x2160.jpg);
+}
 
-a {  
-text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 #menu {
- font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #menu {
@@ -152,22 +156,21 @@ text-decoration:none;
 }
 
 #menu {
-  margin:0;
-  padding:0;
-  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 #menu a {
-  width:100px;
-  text-decoration:none;
-  text-align:center;
-  color:#e1d1d1;
-  background-color:#0b012b;
-  padding:3px 5px;
-  border-right:1px solid blue;
-  display:block;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  color: #e1d1d1;
+  background-color: #0b012b;
+  padding: 3px 5px;
+  border-right: 1px solid blue;
+  display: block;
 }
 
 #menu li {
-  float:left;
+  float: left;
 }
-
