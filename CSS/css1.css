@@ -133,3 +133,41 @@ table {
   flex-flow: row wrap;
   justify-content: space-between;
 }
+
+body {
+  background-image:url(wallpaper-5-3840x2160.jpg);
+    }
+
+a {  
+text-decoration:none;
+}
+
+#menu {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+#menu {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+#menu a {
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  color:#e1d1d1;
+  background-color:#0b012b;
+  padding:3px 5px;
+  border-right:1px solid blue;
+  display:block;
+}
+
+#menu li {
+  float:left;
+}
+
