@@ -115,6 +115,7 @@ body {
 ol,
 ul {
   list-style: none;
+  text-align: center;
 }
 blockquote,
 q {
@@ -139,7 +140,9 @@ table {
 }
 
 body.clase-principal {
-  background-image: url('../IMAGENES/wallpaper-5-3840x2160.jpg');
+  background-image: url('../IMAGENES/depositphotos_124824752-stock-illustration-abstract-red-frame-with-steel.jpg');
+  background-size: 100%;
+  text-align: center;
 }
 
 a {
@@ -158,7 +161,7 @@ a {
 #menu {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style-type:none;
 }
 #menu a {
   width: 100px;
@@ -175,6 +178,11 @@ a {
   float: left;
 }
 
+#menu ul li a:hover {
+background:#163697; 
+}
+
 h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0b012b;
 }
