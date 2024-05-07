@@ -138,8 +138,8 @@ table {
   justify-content: space-between;
 }
 
-body {
-  background-image: url(wallpaper-5-3840x2160.jpg);
+body.clase-principal {
+  background-image: url('../IMAGENES/wallpaper-5-3840x2160.jpg');
 }
 
 a {
