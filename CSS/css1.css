@@ -166,11 +166,15 @@ a {
   text-align: center;
   color: #e1d1d1;
   background-color: #0b012b;
-  padding: 3px 5px;
+  padding: 5% 5px;
   border-right: 1px solid blue;
   display: block;
 }
 
 #menu li {
   float: left;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
