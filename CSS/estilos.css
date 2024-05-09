@@ -8,63 +8,75 @@ h1 {
     font-size: 350%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color: #0b012b;
-    padding: 0%;
-}
-
-div.menu ul {
-    margin-top: 5%;
-    background-color: #0b012b;
-    position: relative;
-    list-style: none;
-    padding: 0%;
+    background-color: #76050dd6;
+    padding: 1.5%;
     margin: 0%;
-    overflow: hidden;
-    text-align: center;
-}
-
-nav>ul>li {
-    float: left;
-}
-
-div.menu ul li a {
-    color: azure;
-    display: block;
-    padding: 10% 20%;
 }
 
 a {
     text-decoration: none;
 }
 
-div.menu ul li a:hover {
-    background-color: #13024a;
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
 
-div.submenu ul li:hover div.submenu {
-    display: table;
+#menu {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
 }
 
-div.menu ul li div.submenu {
-    width: 1000%;
-    position: absolute;
-    left: 0%;
-    background-color: blue;
-    box-sizing: border-box;
-    display: none;
+#menu li {
+    width:100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #76050dd6;
+    padding: 3%, 5%;
+    border-right:3px solid blue;
+    display: block;
+
 }
 
+#menu li {
+float: left;
+}
 
-
+#menu a:hover {
+background-color: #76050dd6;
+}
 .parrafo-uno {
     font-size: 240;
     color: azure;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.sub-parrafouno {
+    color: beige;
 }
 
 .sub-parrafouno {
     color: aliceblue;
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.datoc {
+    font-size: 190%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.datocur {
+    color: azure;
+    font-size: 130%;
+    margin: 4%;
+}
+
+img {
+    float: right;
+    margin: 2%;
 }
