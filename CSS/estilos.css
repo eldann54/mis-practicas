@@ -208,7 +208,7 @@ footer {
 }
 
 
- body #log-in {
+#log-in body  {
 display: flex;
 justify-content: center;
 background-color: #675eeb;
