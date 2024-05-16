@@ -172,7 +172,7 @@ footer {
   color: aliceblue;
   clear: both;
   text-align: center;
-  padding: 1.5%;
+  padding: 2.5%;
 }
 
 /**/
@@ -204,4 +204,12 @@ creacion de cuenta
   border: 1px solid #675eeb;
   font-family: 'Courier New', Courier, monospace;
   font-size: 30%;
+}
+
+body#log-in {
+background-color: aqua;
+}
+
+#log-in h1 {
+  font-size: 420%;
 }
