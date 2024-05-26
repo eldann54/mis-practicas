@@ -31,6 +31,7 @@ Pagina Principal (header)
   height: 80px;
   width: auto;
   transition: all 0.3s;
+  float: initial;
 }
 
 .index .logo {
@@ -43,34 +44,37 @@ Pagina Principal (header)
 
 .index h1 {
   font-size: 300%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: aliceblue;
   font-style: initial;
+  align-items: center;
 }
 
-.index button {
-  font-weight: 100;
-  color: rgb(250, 244, 244);
-  padding: 15px 35px;
-  background-color: rgb(236, 37, 37);
-  border: none;
-  border-radius: 60px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.index button:hover {
-  background-color: rgb(255, 127, 148);
-  color: aliceblue;
-  transform: scale(1.1);
-}
-
-.datoc{
+.datoc {
   font-size: 200%;
   font-style: italic;
-  color:aliceblue;
+  color: aliceblue;
   text-align: center;
 }
+
+
+.set-registro a img {
+  margin: 0%;
+  padding: 0%;
+  height: 5%;
+  width: 5%;
+  float: inline-end;
+}
+
+.set-registro img:hover {
+  background-color: rgb(255, 127, 148);
+}
+
+/*
+Slider
+*/
+
+
 /*
 menu de navegacion
 */
@@ -149,6 +153,11 @@ cuerpo de la pagina
   text-decoration: underline;
 }
 
+p {
+  color: white;
+  font-size: 200%;
+}
+
 /*
  SALA DE JUEGOS 
  */
@@ -163,17 +172,17 @@ body.salajuegos {
 }
 
 .container {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
   margin-top: 2%;
   padding: auto;
   border: 3px solid black;
   background-color: rgba(174, 173, 173, 0.637);
   display: flex;
-  flex-direction: row;
+  flex-direction: initial;
   justify-content: center;
   align-items: start;
-  
+  flex-wrap: wrap;
 }
 
 .contenedor {
@@ -184,6 +193,160 @@ body.salajuegos {
   font-weight: bold;
   width: 200px;
   line-height: 10px;
-  margin: 15px;
+  margin: 20px;
+  transition: all 1s;
+}
 
+.contenedor {
+  cursor: pointer;
+}
+
+.contenedor:hover {
+  transform: scale(1.1);
+}
+
+.index.buscador {
+  position: relative;
+}
+
+.index input {
+  padding: 1%;
+  margin-right: 6;
+  border-radius: 5px 0 0 5 px;
+  outline: none;
+}
+
+
+/*
+Log-In
+*/
+
+#log-in {
+  margin: 0%;
+  padding: 0%;
+  font-family: monserrat;
+  background: linear-gradient(150deg, rgb(151, 151, 151), rgb(48, 48, 48));
+  height: 100vh;
+}
+
+.ingreso-datos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: azure;
+  border-radius: 10px;
+}
+
+#log-in h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ingreso-datosv input {
+  padding: 0% 40px;
+  box-sizing: border-box;
+}
+
+.usuario {
+  position: relative;
+  border-bottom: 1px solid black;
+  margin: 30 px 0;
+}
+
+.usuario input {
+  width: 100%;
+  padding: 0%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.passwordd {
+  position: relative;
+  border-bottom: 1px solid black;
+  margin: 30 px 0;
+}
+
+.passwordd input {
+  width: 100%;
+  padding: 0%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/*
+Noticias
+*/
+body.noticias {
+  background-image: url(/IMAGENES/abstract-template-blue-background-white-squares-free-vector.jpg);
+}
+
+.noticias h1 {
+  color: rgb(11, 11, 11);
+  text-align: center;
+  font-size: 300%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.articulo h3 {
+  color: rgb(88, 201, 232);
+}
+
+.notas .articulo {
+  width: 68.5%;
+  margin-right: 1.5%;
+  float: left;
+}
+
+.notas .articulo article {
+  margin-left: 5%;
+  padding: 20px;
+  border-radius: 5%;
+  background-color: rgba(250, 250, 250, 0.831);
+  margin-bottom: 20px;
+  box-shadow: 12 px rgba(81, 133, 182, 0.989);
+}
+
+.volver {
+  border-radius: 10%;
+  height: 7%;
+  background-color: aqua;
+  color: white;
+}
+
+aside {
+  width: 30%;
+  height: 30;
+  background-color: bisque;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 50%;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: aliceblue;
+  clear: both;
+  text-align: center;
+  padding: 1.5%;
+}
+
+/*
+play station (pag)
+*/
+
+.ps {
+  background-image: url(/IMAGENES/ElOutput-072.jpg);
 }
