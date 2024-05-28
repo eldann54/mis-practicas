@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
 }
 
 a {
@@ -16,7 +17,6 @@ Pagina Principal (header)
   background-image: url(../IMAGENES/wallpaper-5-3840x2160.jpg);
   background-size: 110%;
 }
-
 
 .index {
   display: flex;
@@ -57,7 +57,6 @@ Pagina Principal (header)
   text-align: center;
 }
 
-
 .set-registro a img {
   margin: 0%;
   padding: 0%;
@@ -73,7 +72,6 @@ Pagina Principal (header)
 /*
 Slider
 */
-
 
 /*
 menu de navegacion
@@ -98,7 +96,7 @@ menu de navegacion
   justify-content: space-evenly;
 }
 
-.menu>li>a {
+.menu > li > a {
   display: block;
   padding: 30px 40px;
   color: aliceblue;
@@ -119,7 +117,7 @@ menu de navegacion
   margin: 0%;
 }
 
-.submenu>li>a {
+.submenu > li > a {
   display: block;
   padding: 10px 20px;
   color: white;
@@ -195,6 +193,18 @@ body.salajuegos {
   line-height: 10px;
   margin: 20px;
   transition: all 1s;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .descripcion-juego {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 15px 10px;
+  width: 100%;
+  transition: all 333ms ease;
 }
 
 .contenedor {
@@ -203,6 +213,10 @@ body.salajuegos {
 
 .contenedor:hover {
   transform: scale(1.1);
+}
+
+.contenedor:hover .descripcion-juego {
+  bottom: 0;
 }
 
 .index.buscador {
@@ -215,7 +229,6 @@ body.salajuegos {
   border-radius: 5px 0 0 5 px;
   outline: none;
 }
-
 
 /*
 Log-In
